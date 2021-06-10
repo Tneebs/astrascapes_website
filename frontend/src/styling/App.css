@@ -1,0 +1,137 @@
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* HEADER */
+
+.header-container {
+  height: 50vh;
+  width: 50vw;
+  margin-left: 25vw;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.header-upper-container {
+  display: flex;
+  flex-direction: row;
+  height: 13vh;
+}
+
+.header-logo-container {
+  display: flex;
+  margin-left: 3vw;
+  margin-top: 5vh;
+  width: 15vw;
+}
+
+.header-navlinks-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 30vw;
+  margin-left: 3vw;
+  margin-right: 2vw;
+  margin-top: 5vh;
+}
+.navlinks {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-lower-container {
+  height: 35vh;
+  width: 47.5vw;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  background-color: black;
+}
+
+.header-get-quote-container {
+  height: 15vh;
+  width: 20vw;
+  background-color: rgba(255, 255, 255, 0.884);
+  align-self: center;
+  margin-top: 15vh;
+}
+
+.inner-get-quote-1 {
+  display: flex;
+  justify-content: center;
+  color: black;
+  width: 18vw;
+  padding-left: 15px;
+}
+
+.inner-get-quote-2 {
+  display: flex;
+  justify-content: center;
+  color: black;
+  width: 18vw;
+  padding-left: 15px;
+  margin-top: -2vh;
+}
+
+.quote-line {
+  color: rgba(0,0,0,.7);
+  margin-left: 2.5vw;
+  margin-top: -2vh;
+}
+
+.get-quote {
+  display: flex;
+  justify-content: center;
+  color: black;
+  margin-top: -1vh;
+}
+
+/* FOOTER */
+
+.footer-container {
+  height: 8vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  margin-left: 25vw;
+}
+
+.footer-left-container {
+  width: 15vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  /* background-color: black; -- to see the container size */
+}
+
+.facebook {
+  margin-left: 3vw;
+}
+
+
+.footer-right-container {
+  width: 15vw;
+  display: flex;
+  flex-direction: row;
+  margin-left: 20vw;
+}
+
+.trademark {
+  color: black;
+  margin-left: 3vw;
+}
