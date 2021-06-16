@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'Lobster-Regular';
+    src: url('../fonts/Lobster-Regular.ttf');
+}
+
+.container {
+    background-color: white;
+    width: 61vw;
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    /* color: #493414; */
+    color: #a1712c;
+    width: 50%;
+    margin: 1vw;
+    font-family: monospace;
+    font-size: .82vw;
+}
+
+.lets-talk {
+    color: #65ab24;
+    font-size: 2.5vw;
+    font-family: Lobster-Regular;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.email-field {
+    font-family: monospace;
+    color: #a1712c;
+    font-size: 1vw;
+    margin-bottom: .5vh;
+    border: 2px solid #65ab24;
+}
+
+::placeholder {
+    color: #65ab24;
+}
+
+.email-mess {
+    color: #a1712c;
+    font-family: monospace;
+    font-size: 1vw;
+    margin-bottom: .5vh;
+    height: 12vh;
+    border: 2px solid #65ab24;
+}
+
+.button-send {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.email-send {
+    background-color: #65ab24;
+    border: white;
+    color: white;
+    height: 4vh;
+    width: 3vw;
+    font-family: monospace;
+}
+
+.right {
+    background-color: turquoise;
+    width: 50%;
+    margin: 1vw;
+}

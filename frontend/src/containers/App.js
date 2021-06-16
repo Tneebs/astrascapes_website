@@ -8,19 +8,22 @@ import {
 import '../styling/App.css';
 import '../styling/home.css';
 import '../styling/services.css';
+import '../styling/Contact.css';
+
 import Footer from './Footer';
 import Header from './Header';
 import Home from '../components/Home';
 import Services from '../components/Services';
 import Gallery from '../components/Gallery';
+import Contact from '../components/Contact';
 import Booking from '../components/Booking';
 import Plans from '../components/Plans';
 
 class App extends React.Component {
   render() {
     return(
-      <div className='App'>
         <BrowserRouter>
+         <div className='App'>
         <Header />
         <Switch>
 
@@ -36,6 +39,10 @@ class App extends React.Component {
             <Gallery />
           </Route>
 
+          <Route exact path='/contacts'>
+            <Contact />
+          </Route>
+
           <Route exact path='/booking'>
             <Booking />
           </Route>
@@ -48,10 +55,10 @@ class App extends React.Component {
             <Redirect to="/" />
           </Route>
         </Switch>
+        {/* <Footer /> */}
         <Footer />
+        </div>
         </BrowserRouter>
-
-      </div>
     )
   }
 }
