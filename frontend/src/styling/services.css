@@ -1,0 +1,31 @@
+/* SERVICES PAGE */
+
+.services-container {
+    height: 100%;
+    width: 50vw;
+    margin-left: 25vw;
+    margin-top: 8vh;
+    background-color: grey;
+}
+
+.services-title-container {
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.services-title {
+    font-size: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.services-title-text {
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.services-images-upper-container {
+    display: flex;
+    flex-direction: row;
+}

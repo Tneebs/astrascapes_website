@@ -7,6 +7,7 @@ const Footer = () => {
                 <a href='https://www.facebook.com' className='social-media'>
                     {/* <img className='facebook' alt='facebook-logo' src={} /> */}
                     <p className='facebook' color='black'>Facebook</p>
+                    <p className='instagram' color='black'>Instagram</p>
                 </a>
             </div>
             <div className='footer-right-container'>

@@ -1,11 +1,10 @@
 /* HOME PAGE */
 
 .home-container {
-    height: 40vh;
+    height: 100%;
     width: 50vw;
     margin-left: 25vw;
     margin-top: 8vh;
-    margin-bottom: 8vh;
     background-color: grey;
 }
 
@@ -38,4 +37,72 @@
 
 .home-service-plan-text {
     font-size: 30px;
+}
+
+.home-middle-spacer-container {
+    height: 7vw;
+}
+
+.home-lower-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.home-lower-left-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.home-about-img {
+    height: 40vh;
+    width: 25vw;
+    margin-top: 2vh;
+    background-color: rgb(64, 183, 238);
+}
+
+.home-lower-right-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 40vh;
+    width: 25vw;
+    margin-top: 2vh;
+    background-color: rgb(69, 216, 147);
+}
+
+.home-lower-right-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 35px;
+    margin-top: 70px;
+}
+
+.home-about-us-title-right {
+    margin-right: 45px;
+    color: black;
+}
+
+.home-about-us-title-left {
+    margin-left: 45px;
+}
+
+.home-lower-right-text {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    color: black;
+}
+
+.home-lower-container-btn {
+    display: flex;
+    justify-content: space-around;
+}
+
+.home-lower-btn {
+    height: 4vh;
+    width: 8vw;
+    margin-top: 2.5vh;
+    border: solid 3px black;
+    background: transparent;
 }

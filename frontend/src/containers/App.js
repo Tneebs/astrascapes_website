@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import '../styling/App.css';
 import '../styling/home.css';
+import '../styling/services.css';
 import Footer from './Footer';
 import Header from './Header';
 import Home from '../components/Home';
