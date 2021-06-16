@@ -22,16 +22,12 @@ const Contact = () => {
         <div className='container'>
             <div className='left'>
                 <span className='lets-talk'> Let's Talk </span>
-                <br />
-                <span> Steve Penwell </span>
+                <p> Steve Penwell </p>
                 <p> Tel:  405-301-7271 <br /> Call or Text any time! </p>
-                <p> If you don't care for that and just want a basic inquiry,
-                    <br /> please fill out the form below.
-                </p>
-
+                <p> If you don't care for that and just want a basic inquiry, please fill out the form below. </p>
                 <form className="contact-form">
                     <input type="hidden" name="contact_number" />
-                    
+
                     <input type="text" name="name" className='email-field' onChange={e => setName(e.target.value)} placeholder='Name*' required />
 
                     <input type="email" name="email" className='email-field' onChange={e => setEmail(e.target.value)} placeholder='Email*' required />

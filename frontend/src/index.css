@@ -1,3 +1,7 @@
+html {
+  background: url('./pictures/wood.jpeg');
+}
+
 body {
   height: 100%;
   width: 100%;
@@ -7,7 +11,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(214, 214, 214);
+  /* background-color: rgb(214, 214, 214); */
   color: white;
 }
 

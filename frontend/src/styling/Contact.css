@@ -1,25 +1,30 @@
+@font-face {
+    font-family: 'Lobster-Regular';
+    src: url('../fonts/Lobster-Regular.ttf');
+}
+
 .container {
-    background-color: red;
-    /* height: 50vh; */
-    width: 60vw;
-    margin-top: 3vh;
-    margin-bottom: 3vh;
+    background-color: white;
+    width: 61vw;
+    margin-top: 7vh;
+    margin-bottom: 7vh;
     display: flex;
     justify-content: space-between;
 }
 
 .left {
-    color: #493414;
-    background-color: violet;
-    margin-left: 1vw;
-    font-family: Arial,Helvetica,sans-serif;
+    /* color: #493414; */
+    color: #a1712c;
+    width: 50%;
+    margin: 1vw;
+    font-family: monospace;
+    font-size: .82vw;
 }
 
 .lets-talk {
     color: #65ab24;
-    font-size: 2vw;
-    font-family: cursive;
-    background-color: black;
+    font-size: 2.5vw;
+    font-family: Lobster-Regular;
 }
 
 .contact-form {
@@ -28,17 +33,23 @@
 }
 
 .email-field {
-    
     font-family: monospace;
+    color: #a1712c;
+    font-size: 1vw;
     margin-bottom: .5vh;
     border: 2px solid #65ab24;
 }
 
+::placeholder {
+    color: #65ab24;
+}
+
 .email-mess {
+    color: #a1712c;
     font-family: monospace;
+    font-size: 1vw;
     margin-bottom: .5vh;
     height: 12vh;
-    width: 25vw;
     border: 2px solid #65ab24;
 }
 
@@ -59,4 +70,6 @@
 
 .right {
     background-color: turquoise;
+    width: 50%;
+    margin: 1vw;
 }
