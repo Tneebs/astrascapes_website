@@ -11,8 +11,7 @@
 
 .header-container {
   height: 50vh;
-  width: 50vw;
-  /* margin-left: 25vw; */
+  width: 61vw;
   display: flex;
   flex-direction: column;
   background-color: white;
@@ -26,9 +25,9 @@
 
 .header-logo-container {
   display: flex;
-  margin-left: 3vw;
+  margin-left: 2vw;
   margin-top: 5vh;
-  width: 15vw;
+  width: 25vw;
 }
 
 .header-navlinks-container {
@@ -47,7 +46,7 @@
 
 .header-lower-container {
   height: 35vh;
-  width: 47.5vw;
+  width: 58vw;
   margin-bottom: 3vh;
   display: flex;
   flex-direction: column;
@@ -57,11 +56,14 @@
 }
 
 .header-get-quote-container {
-  height: 15vh;
-  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 18vh;
+  width: 25vw;
   background-color: rgba(255, 255, 255, 0.884);
   align-self: center;
-  margin-top: 15vh;
+  margin-top: 12vh;
 }
 
 .inner-get-quote-1 {
@@ -69,7 +71,7 @@
   justify-content: center;
   color: black;
   width: 18vw;
-  padding-left: 15px;
+  font-size: 25px;
 }
 
 .inner-get-quote-2 {
@@ -77,13 +79,12 @@
   justify-content: center;
   color: black;
   width: 18vw;
-  padding-left: 15px;
   margin-top: -2vh;
+  font-size: 25px;
 }
 
 .quote-line {
   color: rgba(0,0,0,.7);
-  margin-left: 2.5vw;
   margin-top: -2vh;
 }
 
@@ -91,7 +92,8 @@
   display: flex;
   justify-content: center;
   color: black;
-  margin-top: -1vh;
+  margin-top: -.5vh;
+  font-size: 22px;
 }
 
 /* FOOTER */
