@@ -19,8 +19,8 @@ const Header = () => {
                     <div className='header-get-quote-container'>
                         <h3 className='inner-get-quote-1'>Beautify Your Outdoor and</h3>
                         <h3 className='inner-get-quote-2'>Indoor Space</h3>
-                        <p className='quote-line'>_______________________________</p>
-                        <h3 className='get-quote'>Get a Quote {'>'}</h3>
+                        <p className='quote-line'>_______________________________________</p>
+                        <h3 className='get-quote'>GET A QUOTE {'>'}</h3>
                     </div>
                 </div>
         </div>
