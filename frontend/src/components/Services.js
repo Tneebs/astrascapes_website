@@ -32,7 +32,6 @@ const Services = () => {
                     <h2 className='services-landscaping-title'>Tree / ShrubTrimming</h2>
                 </div>
             </div>
-
         </div>
     )
 }
