@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Lobster-Regular';
+  src: url('../fonts/Lobster-Regular.ttf');
+}
+
 .App {
   height: 100vh;
   display: flex;
@@ -70,8 +75,9 @@
   display: flex;
   justify-content: center;
   color: black;
-  width: 18vw;
+  width: 20vw;
   font-size: 25px;
+  font-family: 'Georgia';
 }
 
 .inner-get-quote-2 {
@@ -81,6 +87,7 @@
   width: 18vw;
   margin-top: -2vh;
   font-size: 25px;
+  font-family: 'Georgia';
 }
 
 .quote-line {
@@ -94,6 +101,7 @@
   color: black;
   margin-top: -.5vh;
   font-size: 22px;
+  font-family: 'Georgia';
 }
 
 /* FOOTER */

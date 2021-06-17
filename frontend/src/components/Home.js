@@ -8,15 +8,21 @@ const Home = () => {
                 <div className='home-upper-left-container'>
                     {/* <img className='home-service-img' alt='home-service-img' src={} /> */}
                     <div className='home-service-img' /> {/* placer div for image*/}
+                    <h3 className='home-service-plan-text'>Honest, Quality, and Hospitable work at a incredible price. Interested
+                    in our services or plans?
+                    <p className='home-read-more-1'>Read More {'>'}</p>
+                    </h3>
                 </div>
-                <div className='home-upper-right-container'>
-                    <div className='home-upper-right-text'>
-                        <h3 className='home-service-plan-text'>Honest, Quality, and Hospitable work at a incredible price. Interested in our services or plans?</h3>
+
+                <div className='home-middle-container-col'>
+                    <div className='home-middle-container-row'>
+                        <div className='home-service-img' />
+                        <h3 className='home-service-plan-text'>Pressure Washing and Detailing Solutions
+                        <p className='home-read-more-2'>Read More {'>'}</p>
+                        </h3>
                     </div>
                 </div>
             </div>
-
-            <div className='home-middle-spacer-container' />
 
             <div className='home-lower-container'>
                 <div className='home-lower-left-container'>
