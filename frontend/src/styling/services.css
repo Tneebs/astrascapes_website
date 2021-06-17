@@ -1,10 +1,9 @@
 /* SERVICES PAGE */
 
 .services-container {
-    height: 100%;
-    width: 50vw;
-    margin-left: 25vw;
-    margin-top: 8vh;
+    height: 150vh;
+    width: 61vw;
+    margin-top: 7vh;
     background-color: grey;
 }
 
@@ -25,7 +24,31 @@
     margin-left: 20px;
 }
 
-.services-images-upper-container {
+.services-title-text-line {
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.services-images-container {
     display: flex;
     flex-direction: row;
+}
+
+.services-landscaping-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.services-landscaping-title {
+    font-size: 40px;
+    margin-left: 1vw;
+    margin-top: 1vh;
+}
+
+.services-landscaping-img {
+    height: 45vh;
+    width: 28vw;
+    margin-left: 1vw;
+    margin-top: 3vh;
+    background-color: black;
 }

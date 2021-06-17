@@ -48,6 +48,7 @@
 .header-lower-container {
   height: 35vh;
   width: 47.5vw;
+  margin-bottom: 3vh;
   display: flex;
   flex-direction: column;
   align-self: center;
