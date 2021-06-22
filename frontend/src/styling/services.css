@@ -66,4 +66,5 @@
     margin-left: 1vw;
     margin-top: 3vh;
     background-color: black;
+    object-fit: contain;
 }
