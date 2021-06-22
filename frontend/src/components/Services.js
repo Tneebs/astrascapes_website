@@ -1,4 +1,6 @@
 import React from 'react';
+import Trimming from '../images/tree_trimming.jpg';
+import PW from '../images/pressure_washing.jpg';
 
 const Services = () => {
     return(
@@ -28,8 +30,12 @@ const Services = () => {
 
             <div className='services-images-container'>
                 <div className='services-landscaping-container'>
-                    <div className='services-landscaping-img'/>
+                    <img className='services-landscaping-img' alt='services-landscaping-img' src={Trimming} />
                     <h2 className='services-landscaping-title'>Tree / ShrubTrimming</h2>
+                </div>
+                <div className='services-landscaping-container'>
+                    <img className='services-landscaping-img' alt='services-landscaping-img' src={PW} />
+                    <h2 className='services-landscaping-title'>Pressure Washing</h2>
                 </div>
             </div>
         </div>
