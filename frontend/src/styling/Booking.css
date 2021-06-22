@@ -1,0 +1,81 @@
+/* BOOKING PAGE */
+@font-face {
+    font-family: 'Lobster-Regular';
+    src: url('../fonts/Lobster-Regular.ttf');
+}
+
+.main-container {
+    margin-top: 7vh;
+    width: 61vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+.container-title {
+    font-family: Lobster-Regular;
+    color: #65ab24;
+    font-size: 5vh;
+}
+
+.main-x-container {
+    display: flex;
+    width: 58vw;
+    align-items: center;
+}
+
+.left-y-container {
+    display: flex;
+    flex-direction: column;
+    width: 29vw;
+    height: 40vh;
+}
+
+.left-img {
+    width: 29vw;
+    height: 40vh;
+}
+
+.right-y-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 29vw;
+    height: 40vh;
+    text-align: center;
+    border: 1px solid rgba(240, 236, 192, 0.911);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.right-title {
+    color: rgb(77, 40, 0);
+    font-family: Lobster-Regular;
+    font-size: 2.5vh;
+    padding-top: 3vh;
+}
+
+.right-text-1 {
+    width: 20vw;
+    margin-top: -.5vh;
+    font-size: 2.2vh;
+    color: rgb(48, 46, 46);
+}
+
+.right-text-2 {
+    margin-top: -1vh;
+    width: 20vw;
+    font-size: 2.2vh;
+    line-height: 2em;
+    color: rgb(48, 46, 46);
+}
+
+.button {
+    height: 4vh;
+    width: 8vw;
+    font-size: 2vh;
+    background-color: #9eff71e7;
+    color: white;
+    border-radius: 3px;
+    border: none;
+}
