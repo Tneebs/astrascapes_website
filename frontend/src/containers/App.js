@@ -9,6 +9,7 @@ import '../styling/App.css';
 import '../styling/home.css';
 import '../styling/services.css';
 import '../styling/Contact.css';
+import '../styling/Booking.css';
 
 import Footer from './Footer';
 import Header from './Header';
