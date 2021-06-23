@@ -10,6 +10,7 @@ import '../styling/home.css';
 import '../styling/services.css';
 import '../styling/Contact.css';
 import '../styling/Booking.css';
+import '../styling/Plans.css';
 
 import Footer from './Footer';
 import Header from './Header';
