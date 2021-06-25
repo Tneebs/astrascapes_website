@@ -16,7 +16,7 @@
 
 .header-container {
   height: 50vh;
-  width: 61vw;
+  width: 65vw;
   display: flex;
   flex-direction: column;
   background-color: white;
@@ -108,7 +108,7 @@
 
 .footer-container {
   height: 8vh;
-  width: 61vw;
+  width: 65vw;
   display: flex;
   flex-direction: row;
   background-color: white;

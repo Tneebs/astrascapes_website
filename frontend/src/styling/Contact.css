@@ -5,7 +5,7 @@
 
 .container {
     background-color: white;
-    width: 61vw;
+    width: 65vw;
     margin-top: 7vh;
     margin-bottom: 7vh;
     display: flex;
@@ -21,7 +21,7 @@
     font-size: .82vw;
 }
 
-.lets-talk {
+span.lets-talk {
     color: #65ab24;
     font-size: 2.5vw;
     font-family: Lobster-Regular;
