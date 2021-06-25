@@ -1,0 +1,14 @@
+.grid {
+    background-color: red;
+    height: 30%;
+    width: 31%;
+    margin: .5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-pic {
+    height: 100%;
+    width: 100%;
+}

@@ -11,6 +11,8 @@ import '../styling/services.css';
 import '../styling/Contact.css';
 import '../styling/Booking.css';
 import '../styling/Gallery.css';
+import '../styling/Grid.css';
+
 
 
 import Footer from './Footer';
