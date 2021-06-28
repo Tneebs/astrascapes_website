@@ -12,8 +12,7 @@ import '../styling/Contact.css';
 import '../styling/Booking.css';
 import '../styling/Gallery.css';
 import '../styling/Grid.css';
-
-
+import '../styling/Plans.css';
 
 import Footer from './Footer';
 import Header from './Header';

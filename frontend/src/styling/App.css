@@ -3,6 +3,11 @@
   src: url('../fonts/Lobster-Regular.ttf');
 }
 
+@font-face {
+  font-family: 'ShipporiMincho-Regular';
+  src: url('../fonts/ShipporiMincho-Regular.ttf');
+}
+
 .App {
   /* height: 100vh; */
   display: flex;

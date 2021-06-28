@@ -1,10 +1,6 @@
 /* BOOKING PAGE */
-@font-face {
-    font-family: 'Lobster-Regular';
-    src: url('../fonts/Lobster-Regular.ttf');
-}
 
-.main-container {
+.booking-main-container {
     margin-top: 7vh;
     width: 65vw;
     display: flex;
@@ -13,56 +9,56 @@
     background-color: white;
 }
 
-.container-title {
+.booking-container-title {
     font-family: Lobster-Regular;
-    color: #65ab24;
+    color: rgb(73, 52, 20);
     font-size: 5vh;
 }
 
-.main-x-container {
+.booking-main-x-container {
     display: flex;
     width: 58vw;
     align-items: center;
 }
 
-.left-y-container {
+.booking-left-y-container {
     display: flex;
     flex-direction: column;
     width: 29vw;
     height: 40vh;
 }
 
-.left-img {
+.booking-left-img {
     width: 29vw;
     height: 40vh;
 }
 
-.right-y-container {
+.booking-right-y-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 29vw;
     height: 40vh;
     text-align: center;
-    border: 1px solid rgba(240, 236, 192, 0.911);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px solid rgba(73,52,20,0.2);
+    font-family: ShipporiMincho;
 }
 
-.right-title {
-    color: rgb(77, 40, 0);
+.booking-right-title {
+    color: rgb(73, 52, 20);
     font-family: Lobster-Regular;
     font-size: 2.5vh;
     padding-top: 3vh;
 }
 
-.right-text-1 {
+.booking-right-text-1 {
     width: 20vw;
     margin-top: -.5vh;
     font-size: 2.2vh;
     color: rgb(48, 46, 46);
 }
 
-.right-text-2 {
+.booking-right-text-2 {
     margin-top: -1vh;
     width: 20vw;
     font-size: 2.2vh;
@@ -70,12 +66,13 @@
     color: rgb(48, 46, 46);
 }
 
-.button {
+.booking-button {
     height: 4vh;
     width: 8vw;
     font-size: 2vh;
-    background-color: #9eff71e7;
+    background-color: #A1E763;
     color: white;
     border-radius: 3px;
     border: none;
+    font-family: ShipporiMincho;
 }
