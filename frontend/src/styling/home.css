@@ -37,7 +37,7 @@ img.home-service-img {
     background-color: rgb(255, 255, 255);
     color: #913804;
     width: 35%;
-    font-size: 2rem;
+    font-size: 2em;
     font-family: 'Georgia';
     margin-left: 2vw;
 }
@@ -97,7 +97,7 @@ img.home-about-pic {
 .home-about-us-title {
     font-family: sans-serif;
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 3em;
 }
 
 span.home-us {
@@ -115,5 +115,5 @@ button.home-learn-button {
     height: 5vh;
     width: 9vw;
     border: solid 3px black;
-    font-size: 1rem;
+    font-size: 1em;
 }
