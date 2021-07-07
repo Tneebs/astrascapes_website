@@ -1,7 +1,6 @@
 .grid {
-    background-color: red;
-    height: 30%;
-    width: 31%;
+    height: 27vh;
+    width: 20vw;
     margin: .5vw;
     display: flex;
     justify-content: center;
