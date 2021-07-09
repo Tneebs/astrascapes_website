@@ -36,8 +36,12 @@
 .header-logo-container {
   display: flex;
   margin-left: 2vw;
-  margin-top: 5vh;
+  margin-top: 1vh;
   width: 25vw;
+}
+
+.logo {
+  height: 13vh;
 }
 
 .header-navlinks-container {
@@ -58,6 +62,7 @@
   height: 35vh;
   width: 58vw;
   margin-bottom: 3vh;
+  margin-top: 3vh;
   display: flex;
   flex-direction: column;
   align-self: center;
@@ -73,7 +78,7 @@
   width: 25vw;
   background-color: rgba(255, 255, 255, 0.884);
   align-self: center;
-  margin-top: 12vh;
+  margin-top: 8vh;
 }
 
 .inner-get-quote-1 {

@@ -1,11 +1,14 @@
 import React from 'react';
+import Logo from '../images/astrascapes-black.png';
 
 const Header = () => {
     return (
         <div className='header-container'>
             <div className='header-upper-container'>
                 <div className='header-logo-container'>
-                    <a href='/' header-logo>AstraScapes, LLC.</a>
+                    <a href='/' className='header-logo'>
+                        <img src={Logo} className='logo' alt='astrascapes-logo-blk'/>
+                    </a>
                 </div>
                 <div className='header-navlinks-container'>
                     <a href='/services' className='navlinks'>Services</a>
