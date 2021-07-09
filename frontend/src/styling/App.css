@@ -63,8 +63,15 @@
   background-color: crimson;
   width: 35%;
   display: flex;
+  margin-left: 2vw;
+  margin-top: 1vh;
+  width: 25vw;
   justify-content: center;
   align-items: center;
+}
+
+.logo {
+  height: 13vh;
 }
 
 .header-navlinks-container {
@@ -79,6 +86,17 @@ a.navlinks {
   font-size: 1em;
   text-decoration: none;
 }
+
+.header-lower-container {
+  height: 35vh;
+  width: 58vw;
+  margin-bottom: 3vh;
+  margin-top: 3vh;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  background-color: black;
 
 a:hover {
   color: #65ab24;
@@ -103,6 +121,7 @@ a:hover {
   /* display: flex;
   flex-direction: column;
   align-self: center;
+  margin-top: 8vh;
   align-items: center; */
 }
 

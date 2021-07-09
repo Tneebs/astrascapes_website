@@ -1,8 +1,14 @@
 import React from 'react';
+import Logo from '../images/astrascapes-black.png';
 
 const Header = () => {
     return (
         <div className='header-container'>
+            <div className='header-upper-container'>
+                <div className='header-logo-container'>
+                    <a href='/' className='header-logo'>
+                        <img src={Logo} className='logo' alt='astrascapes-logo-blk'/>
+                    </a>
 
             <div className='header-top'>
                 <div className='header-logo'>
