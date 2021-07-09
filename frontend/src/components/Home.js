@@ -1,52 +1,57 @@
 import React from 'react';
 
+import Yellow from '../images/home-yellow-flower.webp'
+import Walkpath from '../images/home-walkpath.webp'
+import Shoes from '../images/home-shoes.webp'
+
 const Home = () => {
-    return(
+    return (
         <div className='home-container'>
-
-            <div className='home-upper-container'>
-                <div className='home-upper-left-container'>
-                    {/* <img className='home-service-img' alt='home-service-img' src={} /> */}
-                    <div className='home-service-img' /> {/* placer div for image*/}
-                    <h3 className='home-service-plan-text'>Honest, Quality, and Hospitable work at a incredible price. Interested
-                    in our services or plans?
-                    <p className='home-read-more-1'>Read More {'>'}</p>
-                    </h3>
-                </div>
-
-                <div className='home-middle-container-col'>
-                    <div className='home-middle-container-row'>
-                        <div className='home-service-img' />
-                        <h3 className='home-service-plan-text'>Pressure Washing and Detailing Solutions
-                        <p className='home-read-more-2'>Read More {'>'}</p>
-                        </h3>
-                    </div>
-                </div>
-            </div>
-
-            <div className='home-lower-container'>
-                <div className='home-lower-left-container'>
-                    {/*<img className='home-about-img' alt='home-about-img' src={} />*/}
-                    <div className='home-about-img'> {/* placer div for image*/}
-                        <p>placer for img</p>
-                    </div>
-                </div>
-                <div className='home-lower-right-container'>
-                        <span className='home-lower-right-title'>
-                            <h2 className='home-about-us-title-left'>A B O U T</h2>
-                            <h2 className='home-about-us-title-right'>U S</h2>
+            <div className='home-top-half'>
+                <div className='home-cards'>
+                    <img src={Yellow} className='home-service-img' alt='home-service-img' />
+                    <div className='home-des-text'>
+                        <span>
+                            Honest, Quality, and Hospitable work at a incredible price.
+                            Interested in our services or plans?
                         </span>
-                    <div className='home-lower-right-text'>
-                        <p className='home-about-us-text'>Filler text for about us.</p>
-                    </div>
-                    <div className='home-lower-container-btn'>
-                        <a href='/services' className='learn-more-services'>
-                            <button className='home-lower-btn'>Learn More</button>
-                        </a>
+                        <p className='home-read-more'> Read More {'>'} </p>
                     </div>
                 </div>
-            </div>
 
+                <div className='home-breaks'></div>
+
+                <div className='home-cards'>
+                    <img src={Walkpath} className='home-service-img' alt='home-service-img' />
+                    <div className='home-des-text'>
+                        <span>
+                            Pressure Washing and Detailing Solutions
+                        </span>
+                        <p className='home-read-more'> Read More {'>'} </p>
+                    </div>
+                </div>
+
+                <div className='home-breaks'></div>
+            </div>
+            <div className='home-bottom-half'>
+                <div className='home-bottom-half-left'>
+                    <img src={Shoes} className='home-about-pic' alt='Shoes' />
+                </div>
+                <div className='home-bottom-half-right'>
+                        <div className='home-about-us-title'>
+                            <span> A B O U T </span>
+                            <span className='home-us'> U S </span>
+                        </div>
+
+                        <div className='home-about-us-des'>
+                            <p> Filler text for about us. </p>
+                        </div>
+
+                        <a href='/services' alt='Services Page'>
+                            <button className='home-learn-button'>Learn More</button>
+                        </a>
+                </div>
+            </div>
         </div>
     )
 }

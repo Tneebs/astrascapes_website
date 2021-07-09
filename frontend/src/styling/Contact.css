@@ -18,12 +18,12 @@
     width: 50%;
     margin: 1vw;
     font-family: monospace;
-    font-size: .82vw;
+    font-size: 1.25em;
 }
 
 span.lets-talk {
     color: #65ab24;
-    font-size: 2.5vw;
+    font-size: 2.5em;
     font-family: Lobster-Regular;
 }
 
@@ -35,7 +35,7 @@ span.lets-talk {
 .email-field {
     font-family: monospace;
     color: #a1712c;
-    font-size: 1vw;
+    font-size: 1.25em;
     margin-bottom: .5vh;
     border: 2px solid #65ab24;
 }
@@ -47,7 +47,7 @@ span.lets-talk {
 .email-mess {
     color: #a1712c;
     font-family: monospace;
-    font-size: 1vw;
+    font-size: 1.25em;
     margin-bottom: .5vh;
     height: 12vh;
     border: 2px solid #65ab24;
