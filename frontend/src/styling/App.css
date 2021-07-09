@@ -16,27 +16,6 @@
   align-items: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* HEADER */
 
 .header-container {
@@ -47,6 +26,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  /* font-size: 1vw; */
 }
 
 
@@ -63,15 +43,12 @@
   background-color: crimson;
   width: 35%;
   display: flex;
-  margin-left: 2vw;
-  margin-top: 1vh;
-  width: 25vw;
   justify-content: center;
   align-items: center;
 }
 
-.logo {
-  height: 13vh;
+img.logo {
+  height: 12vh;
 }
 
 .header-navlinks-container {
@@ -87,23 +64,9 @@ a.navlinks {
   text-decoration: none;
 }
 
-.header-lower-container {
-  height: 35vh;
-  width: 58vw;
-  margin-bottom: 3vh;
-  margin-top: 3vh;
-  display: flex;
-  flex-direction: column;
-  align-self: center;
-  align-items: center;
-  background-color: black;
-
 a:hover {
   color: #65ab24;
 }
-
-
-
 
 /* BOTTOM */
 .header-bottom {
@@ -114,84 +77,54 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
-  /* margin-left: 2vh; */
-  /* display: flex;
-  flex-direction: column;
-  align-self: center;
-  margin-top: 8vh;
-  align-items: center; */
+  position: relative;
 }
 
-/* .test {
-  background-color: blue;
-  margin: 2vh;
-  height: 90%;
+.header-pics {
+  height: 100%;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-} */
+  position: absolute;
+}
 
 .header-quote{
-  background-color: aqua;
-  height: 50%;
+  background-color: rgba(255, 255, 255, 0.75);
+  height: 60%;
   width: 60%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* display: flex;
-  flex-direction: column;
-  align-items: center; */
-  /* height: 18vh;
-  width: 25vw; */
-  /* background-color: rgba(255, 255, 255, 0.884); */
-  /* align-self: center; */
-  /* margin-top: 12vh; */
+  z-index: 10;
+  /* position: absolute; */
 }
 
 span.header-des {
   color: black;
   font-size: 2.5em;
+  font-family: Georgia;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .header-break {
-  border-bottom: 4px dotted #a1712c;
+  border-bottom: 2px dotted #a1712c;
   padding: .5vh;
   margin-bottom: 1vh;
+  width: 40%;
 }
 
-span.get-quote {
+a.get-quote {
   color: #493414;
   font-size: 1.5em;
   font-weight: bold;
+  text-decoration: none;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+a:hover {
+  color: #65ab24;
+}
 
 /* FOOTER */
 
