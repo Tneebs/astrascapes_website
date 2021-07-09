@@ -16,7 +16,9 @@ const Plans = () => {
                         <p className='plans-card-top-sm-text'>Every Month</p>
                         <p className='plans-card-top-m-text'>Lawn Care Bronze Package</p>
                         <p className='plans-card-top-sm-text'>Valid for 10 months</p>
-                        <button className='plans-btn'>Select</button>
+                        <a href='/contacts'>
+                            <button className='plans-btn'>Contact Us!</button>
+                        </a>
                     </div>
                     <div className='plans-card-btm-container'>
                         <br/>
@@ -39,7 +41,9 @@ const Plans = () => {
                         <p className='plans-card-top-sm-text'>Every Week</p>
                         <p className='plans-card-top-m-text'>Lawn Care Silver Package</p>
                         <p className='plans-card-top-sm-text'>Valid for 36 weeks</p>
-                        <button className='plans-btn'>Select</button>
+                        <a href='/contacts'>
+                            <button className='plans-btn'>Contact Us!</button>
+                        </a>
                     </div>
                     <div className='plans-card-btm-container'>
                         <br/>
@@ -62,7 +66,9 @@ const Plans = () => {
                         <p className='plans-card-top-sm-text'>Every Month</p>
                         <p className='plans-card-top-m-text'>Lawn Care Gold Package</p>
                         <p className='plans-card-top-sm-text'>Valid for 12 months</p>
-                        <button className='plans-btn'>Select</button>
+                        <a href='/contacts'>
+                            <button className='plans-btn'>Contact Us!</button>
+                        </a>
                     </div>
                     <div className='plans-card-btm-container'>
                         <br/>
@@ -90,7 +96,9 @@ const Plans = () => {
                             </div>
                                 <p className='plans-card-top-sm-text'>Every Month</p>
                                 <p className='plans-card-top-m-text'>A gentle cleanse of your<br/>walk ways and patio/porch</p>
-                                <button className='plans-btn' id='pw_btn'>Select</button>
+                                <a href='/contacts'>
+                                    <button className='plans-btn' id='pw_btn'>Contact Us!</button>
+                                </a>
                         </div>
                         <div className='plans-card-btm-container'>
                             <br/>

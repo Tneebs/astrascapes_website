@@ -15,7 +15,9 @@ const Home = () => {
                             Honest, Quality, and Hospitable work at a incredible price.
                             Interested in our services or plans?
                         </span>
-                        <p className='home-read-more'> Read More {'>'} </p>
+                        <a href='/services' className='read-more'>
+                            <p className='home-read-more'> Read More {'>'} </p>
+                        </a>
                     </div>
                 </div>
 
@@ -27,7 +29,9 @@ const Home = () => {
                         <span>
                             Pressure Washing and Detailing Solutions
                         </span>
-                        <p className='home-read-more'> Read More {'>'} </p>
+                        <a href='/services' className='read-more'>
+                            <p className='home-read-more'> Read More {'>'} </p>
+                        </a>
                     </div>
                 </div>
 
@@ -44,7 +48,9 @@ const Home = () => {
                         </div>
 
                         <div className='home-about-us-des'>
-                            <p> Filler text for about us. </p>
+                            <p> We take care of lawns small to large, Flatwork Cleaning, 
+                                Roof cleaning and house pressure washing. We enjoy turning 
+                                a unkempt lawn into a lawn that everyone enjoys seeing. </p>
                         </div>
 
                         <a href='/services' alt='Services Page'>
