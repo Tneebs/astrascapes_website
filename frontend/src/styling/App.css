@@ -60,7 +60,9 @@ img.logo {
 }
 a.navlinks {
   color: #493414;
-  font-size: 1em;
+  font-size: 1.3em;
+  font-family: ShipporiMincho-Regular;
+  font-weight: 500;
   text-decoration: none;
 }
 
@@ -140,7 +142,7 @@ a:hover {
 .footer-left-container {
   width: 30vw;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: flex-start;
   /* background-color: black;  -- to see container size */
 }

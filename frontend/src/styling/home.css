@@ -49,6 +49,10 @@ p.home-read-more {
     font-family: 'Georgia';
 }
 
+.read-more {
+    text-decoration: none;
+}
+
 .home-breaks {
     border-bottom: 4px dotted #a1712c;
     padding: .5vh;
@@ -105,6 +109,9 @@ span.home-us {
 }
 
 .home-about-us-des{
+    width: 60%;
+    font-size: 1.5em;
+    font-family: ShipporiMincho-Regular;
     color: black;
     margin-top: 2vh;
     margin-bottom: 2vh;
