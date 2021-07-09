@@ -4,6 +4,8 @@ import React from 'react';
 import Garden from '../images/garden.webp'
 import Trimming from '../images/tree_trimming.jpg';
 import PW from '../images/pressure_washing.jpg';
+import Watering from '../images/watering-plants.webp';
+import Window from '../images/windowcleaning.jpeg';
 
 const Services = () => {
     return (
@@ -21,7 +23,7 @@ const Services = () => {
 
             <div className='services-bottom'>
                 <div className='services-cards'>
-                    <img src={Garden} className='services-pics' alt='Watering Plants' />
+                    <img src={Watering} className='services-pics' alt='WateringPlants' />
                     <span className='services-cards-title'> Landscaping </span>
                 </div>
 
@@ -36,8 +38,13 @@ const Services = () => {
                 </div>
 
                 <div className='services-cards'>
-                    <img src={PW} className='services-pics' alt='Power Washing' />
+                    <img src={PW} className='services-pics' alt='PowerWashing' />
                     <span className='services-cards-title'> Pressure Washing </span>
+                </div>
+
+                <div className='services-cards'>
+                    <img src={Window} className='services-pics' alt='WindowWashing' />
+                    <span className='services-cards-title'> Window Washing </span>
                 </div>
             </div>
         </div>

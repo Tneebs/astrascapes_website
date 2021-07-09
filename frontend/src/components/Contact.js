@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import GoogleMap from '../images/GoogleMap.png';
 
 const Contact = () => {
     const [name, setName] = useState('')
@@ -43,7 +44,7 @@ const Contact = () => {
             </div>
 
             <div className='right'>
-                <h1> RIGHT </h1>
+                <img src={GoogleMap} className='map' alt='GoogleMap' />
             </div>
         </div>
     )

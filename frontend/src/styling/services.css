@@ -27,13 +27,17 @@ p.services-des {
     margin: 2vh;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 
 }
 
 .services-cards {
     height: 50vh;
     width: 49%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 img.services-pics {
@@ -45,6 +49,8 @@ span.services-cards-title {
     color: #913804;
     font-size: 2.5em;
     font-family: 'Georgia';
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
 }
 
 /* IMG OBJECT-FIT */
