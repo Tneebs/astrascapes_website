@@ -55,3 +55,7 @@ a.book-now-button {
 a.book-now-button:hover {
     background-color: #b9eb8d;
 }
+
+.test {
+    color: black
+}

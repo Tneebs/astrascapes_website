@@ -1,8 +1,8 @@
 import React from 'react'
 
-import Grid from '../components/Grid'
+import Grid from './Grid'
 
-const Modal = (props) => {
+const GalleryModal = (props) => {
     if (!props.open) return null
 
     return (
@@ -20,4 +20,4 @@ const Modal = (props) => {
     )
 }
 
-export default Modal
+export default GalleryModal

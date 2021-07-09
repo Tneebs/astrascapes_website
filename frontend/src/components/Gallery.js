@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
-import Grid from '../components/Grid'
-import Modal from '../components/Modal'
+import Grid from './Grid'
+import GalleryModal from './GalleryModal'
 
 import Tulip from '../images/tulip.webp'
 import Garden from '../images/garden.webp'
@@ -42,7 +42,7 @@ const Gallery = () => {
                 {pics.map(pic => <Grid pic={pic} open={open} handleOpen={handleOpen} />)}
             </div>
 
-            <Modal open={open} pics={pics} selectedPic={selectedPic} handleClose={handleClose} modalClick={modalClick}/>
+            <GalleryModal open={open} pics={pics} selectedPic={selectedPic} handleClose={handleClose} modalClick={modalClick}/>
         </div>
     )
 }
