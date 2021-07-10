@@ -1,5 +1,6 @@
 .booking-container {
     background-color: white;
+    font-family: 'ShipporiMincho-Regular';
     margin-top: 7vh;
     margin-bottom: 7vh;
     width: 65vw;
@@ -28,7 +29,7 @@ img.booking-pics {
     width: 50%;
 }
 
-.booking-card-des {
+.booking-card-info {
     color: #493414;
     height: 100%;
     width: 50%;
@@ -42,11 +43,23 @@ img.booking-pics {
 span.booking-card-title {
     font-family: Lobster-Regular;
     font-size: 2vw;
+    cursor: pointer;
+}
+
+p.booking-card-des {
+    width: 80%;
+}
+
+span.booking-read-more {
+    font-weight: bold;
+    cursor: pointer;
 }
 
 a.book-now-button {
     background-color: #a1e763;
+    width: fit-content;
     color: white;
+    font-size: 1vw;
     padding: .5vh 2vw .5vh 2vw;
     text-decoration: none;
     margin-top: 2vh;
@@ -56,6 +69,66 @@ a.book-now-button:hover {
     background-color: #b9eb8d;
 }
 
-.test {
-    color: black
+
+
+
+/* MODAL FOR BOOKING */
+
+.modal-card {
+    background-color: white;
+    color: #493414;
+    /* height: 80vh; */
+    width: 65vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+span.modal-back-button {
+    color: #a1e763;
+    font-size: 1.25vw;
+    font-weight: bold;
+    width: 95%;
+    cursor: pointer;
+}
+
+span.modal-title {
+    font-size: 3vw;
+}
+
+span.modal-time-price {
+    font-size: 1.25vw;
+    font-weight: bold;
+}
+
+img.book-modal-pic {
+    height: 60vh;
+    width: 60vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.modal-bottom-half {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+p.modal-book-online {
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+
+.modal-breaks {
+    border-bottom: 2px dotted #a1712c;
+    margin-top: 1vh;
+    padding: .5vh;
+    width: 100%;
+}
+
+p.modal-location {
+    font-size: 1.5vw;
 }
