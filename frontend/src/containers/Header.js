@@ -3,7 +3,16 @@ import BackgroundSlideshow from 'react-background-slideshow';
 
 import Logo from '../images/astrascapes-black.png';
 import Garden from '../images/garden.webp';
-import Purple from '../images/purple-flower.webp';
+import Walk from '../images/walkpath.webp';
+import White from '../images/white-flower.webp';
+import garden1 from '../images/gardening1.jpeg';
+import garden2 from '../images/gardening2.jpeg';
+import landscaping1 from '../images/landscaping1.jpg';
+import landscaping2 from '../images/landscaping2.jpeg';
+import landscaping3 from '../images/landscaping3.jpeg';
+
+
+
 
 const Header = () => {
     return (
@@ -30,7 +39,7 @@ const Header = () => {
 
 
             <div className='header-bottom'>
-                <BackgroundSlideshow images={[Garden, Purple]} />
+                <BackgroundSlideshow images={[Garden, White, garden1, Walk, garden2, landscaping1, landscaping2, landscaping3]} />
 
                 <div className='header-quote'>
                     <span className='header-des'>
