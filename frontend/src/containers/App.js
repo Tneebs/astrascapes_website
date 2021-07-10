@@ -13,7 +13,7 @@ import '../styling/Booking.css';
 import '../styling/Gallery.css';
 import '../styling/Grid.css';
 import '../styling/Plans.css';
-import '../styling/Modal.css';
+import '../styling/GalleryModal.css';
 
 
 import Footer from './Footer';

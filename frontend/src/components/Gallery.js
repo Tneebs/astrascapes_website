@@ -39,7 +39,7 @@ const Gallery = () => {
             <span className='gallery'> Gallery </span>
 
             <div className='container-grid'>
-                {pics.map(pic => <Grid pic={pic} open={open} handleOpen={handleOpen} />)}
+                {pics.map(pic => <Grid pic={pic} handleOpen={handleOpen} />)}
             </div>
 
             <GalleryModal open={open} pics={pics} selectedPic={selectedPic} handleClose={handleClose} modalClick={modalClick}/>

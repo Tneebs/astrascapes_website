@@ -1,7 +1,5 @@
 import React from 'react'
 
-import Grid from './Grid'
-
 const GalleryModal = (props) => {
     if (!props.open) return null
 
