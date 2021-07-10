@@ -31,7 +31,6 @@
 
 
 .header-top {
-  background-color: blue;
   height: 25%;
   width: 100%;
   display: flex;
@@ -40,7 +39,6 @@
 }
 
 .header-logo {
-  background-color: crimson;
   width: 35%;
   display: flex;
   justify-content: center;
@@ -52,7 +50,6 @@ img.logo {
 }
 
 .header-navlinks-container {
-  background-color: yellow;
   width: 65%;
   display: flex;
   justify-content: space-evenly;

@@ -34,13 +34,8 @@ const Header = () => {
                 </div>
             </div>
 
-
-
-
-
             <div className='header-bottom'>
                 <BackgroundSlideshow images={[Garden, White, garden1, Walk, garden2, landscaping1, landscaping2, landscaping3]} />
-
                 <div className='header-quote'>
                     <span className='header-des'>
                         Beautify Your Outdoor
@@ -52,9 +47,8 @@ const Header = () => {
 
                     <a href='/contacts' className='get-quote'> GET A QUOTE {'>'} </a>
                 </div>
-
             </div>
-
+            
         </div>
     )
 }

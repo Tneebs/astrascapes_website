@@ -16,7 +16,7 @@
     /* color: #493414; */
     color: #a1712c;
     width: 50%;
-    margin: 1vw;
+    margin: 2vw;
     font-family: ShipporiMincho-Regular;
     font-size: 1.25em;
 }
@@ -70,11 +70,18 @@ span.lets-talk {
 
 .right {
     width: 50%;
+    margin: 2vw;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-img.map {
+.map-container {
     height: 50%;
+    width: 100%;
+}
+
+img.map {
+    height: 100%;
+    width: 100%;
 }

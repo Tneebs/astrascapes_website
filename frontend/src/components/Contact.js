@@ -44,7 +44,9 @@ const Contact = () => {
             </div>
 
             <div className='right'>
-                <img src={GoogleMap} className='map' alt='GoogleMap' />
+                <div className='map-container'>
+                    <img src={GoogleMap} className='map' alt='GoogleMap' />
+                </div>
             </div>
         </div>
     )
