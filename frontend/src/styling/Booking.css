@@ -77,7 +77,6 @@ a.book-now-button:hover {
 .modal-card {
     background-color: white;
     color: #493414;
-    /* height: 80vh; */
     width: 65vw;
     display: flex;
     flex-direction: column;
@@ -87,11 +86,14 @@ a.book-now-button:hover {
     margin-bottom: 2vh;
 }
 
+.back-button-container {
+    width: 95%;
+}
+
 span.modal-back-button {
     color: #a1e763;
     font-size: 1.25vw;
     font-weight: bold;
-    width: 95%;
     cursor: pointer;
 }
 

@@ -62,7 +62,6 @@ const Booking = () => {
     const handleOpen = (card) => {
         setOpen(true)
         setSelectedCard(card)
-        console.log(card)
     }
 
     const handleClose = () => {
@@ -72,7 +71,7 @@ const Booking = () => {
 
     return(
         <div className='booking-container'>
-            {open === false ? <p className='booking-title'> Our Services </p> : <p> hello </p>}
+            {open === false ? <p className='booking-title'> Our Services </p> : <> </>}
 
             {selectedCard === null ?
                 bookCards.map(card => <BookingCard key={card.id} card={card} open={open} handleOpen={handleOpen} selectedCard={selectedCard} /> )
