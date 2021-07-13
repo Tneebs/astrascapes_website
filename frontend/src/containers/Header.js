@@ -36,6 +36,7 @@ const Header = () => {
 
             <div className='header-bottom'>
                 <BackgroundSlideshow images={[Garden, White, garden1, Walk, garden2, landscaping1, landscaping2, landscaping3]} />
+                
                 <div className='header-quote'>
                     <span className='header-des'>
                         Beautify Your Outdoor
