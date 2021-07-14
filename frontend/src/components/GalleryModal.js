@@ -7,11 +7,13 @@ const GalleryModal = (props) => {
         <div className='overlay'>
             <div className='modal-container'>
                 <div className='close-button'>
-                    <span onClick={props.handleClose}> X </span>
+                    <span onClick={props.handleClose} className='close-x'> X </span>
                 </div>
+
                 <img className='modal-pic' src={props.selectedPic} alt='pic' />
-                <div>
-                    {props.pics.map(pic => <img src={pic} className='test' onClick={(e) => props.modalClick(e)} />)}
+
+                <div className='modal-pics-container'>
+                    {props.pics.map(pic => <img src={pic} className='modal-all-pics' onClick={(e) => props.modalClick(e)} />)}
                 </div>
             </div>
         </div>
