@@ -13,6 +13,7 @@ const BookingModal = (props) => {
             <span className='modal-time-price'> {props.selectedCard.time} | {props.selectedCard.price} </span>
             <a href='/contacts' className='book-now-button' alt='Contact Page'> <span> Contact Us! </span> </a>
             <img src={props.selectedCard.src} className='book-modal-pic' alt='Modal Picture' />
+            
             <div className='modal-bottom-half'>
                 <span> {props.selectedCard.modalDes} </span>
                 <p className='modal-book-online'> Book Online </p>
