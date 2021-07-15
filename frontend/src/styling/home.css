@@ -21,9 +21,12 @@
     height: 35vh;
     width: 100%;
     margin: 1vw;
-    background-color: white;
     display: flex;
     justify-content: flex-start;
+}
+
+.home-cards:nth-child(3) {
+    margin-top: 3.5vh;
 }
 
 img.home-service-img {
@@ -37,16 +40,14 @@ img.home-service-img {
     background-color: rgb(255, 255, 255);
     color: #913804;
     width: 35%;
-    font-size: 2em;
-    font-family: 'Georgia';
+    font-size: 1.5vw;
     margin-left: 2vw;
 }
 
 p.home-read-more {
     color: #65ab24;
     width: 100%;
-    font-size: .75em;
-    font-family: 'Georgia';
+    font-size: 1.25vw;
 }
 
 .read-more {
@@ -101,7 +102,7 @@ img.home-about-pic {
 .home-about-us-title {
     font-family: sans-serif;
     font-weight: bold;
-    font-size: 3em;
+    font-size: 3vw;
 }
 
 span.home-us {
@@ -110,8 +111,7 @@ span.home-us {
 
 .home-about-us-des{
     width: 60%;
-    font-size: 1.5em;
-    font-family: ShipporiMincho-Regular;
+    font-size: 1vw;
     color: black;
     margin-top: 2vh;
     margin-bottom: 2vh;
@@ -119,8 +119,52 @@ span.home-us {
 
 button.home-learn-button {
     background: transparent;
-    height: 5vh;
-    width: 9vw;
     border: solid 3px black;
-    font-size: 1em;
+    font-size: 1vw;
+    padding: 1vh;
+    cursor: pointer;
+}
+
+
+
+
+/* MOBILE DEVICE  */
+
+@media (orientation: portrait) and (max-height: 1200px) {
+    .home-container {
+        width: 90vw;
+    }
+
+    img.home-service-img {
+        height: 95%;
+        width: 60%;
+    }
+
+    .home-des-text {
+        font-size: 3.5vw;
+    }
+
+    p.home-read-more {
+        font-size: 3vw;
+    }
+
+    img.home-about-pic {
+        height: 100%;
+
+    }
+
+    .home-about-us-title {
+        font-size: 5vw;
+    }
+
+    .home-about-us-des {
+        width: 90%;
+        font-size: 3vw;
+    }
+
+    button.home-learn-button {
+        font-size: 3vw;
+    }
+
+  
 }

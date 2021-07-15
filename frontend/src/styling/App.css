@@ -18,8 +18,6 @@
 
 
 
-  /* IPHONE 12 PRO MAX  */
-  /* 428 x 926 */
 
 /* HEADER */
 
@@ -157,4 +155,28 @@ p.footer-icon {
 
 span.trademark {
   color: #65ab24;
+}
+
+
+
+
+/* MOBILE DEVICE  */
+
+@media (orientation: portrait) and (max-height: 1200px) {
+  .header-container {
+    width: 90vw;
+  }
+
+  span.header-des {
+    font-size: 4vw;
+  }
+
+  a.get-quote {
+    font-size: 3vw;
+  }
+
+  .footer-container {
+    width: 90vw;
+  }
+
 }
