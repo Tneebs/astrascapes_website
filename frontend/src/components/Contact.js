@@ -19,6 +19,8 @@ const Contact = () => {
     //         });
     // }
 
+    hello
+
     return (
         <div className='container'>
             <div className='left'>
