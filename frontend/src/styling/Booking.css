@@ -11,10 +11,15 @@
 }
 
 p.booking-title {
-    font-family: Lobster-Regular;
+    font-family: 'Lobster-Regular';
     color: #493414;
     font-size: 5vh;
 }
+
+
+
+
+/* BOOKING CARD */
 
 .booking-cards {
     height: 40vh;
@@ -24,16 +29,20 @@ p.booking-title {
     display: flex;
 }
 
+.booking-pic-container {
+    width: 50%;
+}
+
 img.booking-pics {
     height: 100%;
-    width: 50%;
+    width: 100%;
 }
 
 .booking-card-info {
     color: #493414;
     height: 100%;
     width: 50%;
-    font-size: 1.25em;
+    font-size: 1.25vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -72,7 +81,7 @@ a.book-now-button:hover {
 
 
 
-/* MODAL FOR BOOKING */
+/* BOOKING MODAL */
 
 .modal-card {
     background-color: white;
@@ -133,4 +142,89 @@ p.modal-book-online {
 
 p.modal-location {
     font-size: 1.5vw;
+}
+
+
+
+
+/* MOBILE DEVICE  */
+
+@media (orientation: portrait) and (max-height: 1200px) {
+    .booking-container {
+        width: 90vw;
+    }    
+
+    .booking-cards {
+        height: auto;
+        width: 90%;
+        margin-left: 2vh;
+        margin-right: 2vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .booking-pic-container {
+        height: 20vh;
+        width: 100%;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    img.booking-pics {
+        height: 100%;
+        width: 60%;
+        border-radius: 150px;
+    }
+
+    .booking-card-info {
+        width: 100%;
+        font-size: 4vw;       
+    }
+
+    span.booking-card-title {
+        font-size: 5vw;
+    }
+
+    a.book-now-button {
+        font-size: 4vw;
+        margin-bottom: 2vh;
+    }
+
+    .back-button-container {
+        width: 100%;
+    }
+
+    span.modal-back-button {
+        font-size: 4vw;
+    }
+
+    span.modal-title {
+        font-size: 5vw;
+    }
+
+    span.modal-time-price {
+        font-size: 4vw;
+    }
+
+    img.book-modal-pic {
+        height: 50%;
+        width: 100%;
+    }
+
+    .modal-bottom-half {
+        width: 100%;
+    }
+
+    p.modal-book-online {
+        font-size: 4vw;
+    }
+
+    p.modal-location {
+        font-size: 4vw;
+    }
+
 }

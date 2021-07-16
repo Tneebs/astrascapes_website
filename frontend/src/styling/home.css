@@ -141,16 +141,15 @@ button.home-learn-button {
     }
 
     .home-des-text {
-        font-size: 3.5vw;
+        font-size: 4vw;
     }
 
     p.home-read-more {
-        font-size: 3vw;
+        font-size: 3.5vw;
     }
 
     img.home-about-pic {
         height: 100%;
-
     }
 
     .home-about-us-title {
@@ -159,11 +158,11 @@ button.home-learn-button {
 
     .home-about-us-des {
         width: 90%;
-        font-size: 3vw;
+        font-size: 3.5vw;
     }
 
     button.home-learn-button {
-        font-size: 3vw;
+        font-size: 3.5vw;
     }
 
   

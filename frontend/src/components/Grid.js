@@ -2,7 +2,7 @@ import React from 'react'
 
 const Grid = (props) => {
     return (
-        <div className='grid'>
+        <div className='grid-container'>
             <img className='grid-pic' src={props.pic} alt={props.pic} onClick={(e) => props.handleOpen(e)} />
         </div>
     )

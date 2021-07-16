@@ -33,8 +33,8 @@ const Contact = () => {
 
 
     return (
-        <div className='container'>
-            <div className='left'>
+        <div className='container-contact'>
+            <div className='contact-left'>
                 <span className='lets-talk'> Let's Talk </span>
                 <p> Steve Penwell </p>
                 <p> Tel:  405-301-7271 <br /> Call or Text any time! </p>
@@ -57,7 +57,7 @@ const Contact = () => {
                 </form>
             </div>
 
-            <div className='right'>
+            <div className='contact-right'>
                 <div className='map-container'>
                     <img src={GoogleMap} className='map' alt='GoogleMap' />
                 </div>

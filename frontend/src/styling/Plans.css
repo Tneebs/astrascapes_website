@@ -1,92 +1,32 @@
-/* PLANS & PRICING PAGE */
-
-.plans-main-container {
+.plans-container {
+    background-color: white;
+    width: 65vw;
     margin-top: 7vh;
     margin-bottom: 7vh;
-    width: 65vw;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    background-color: white;
-    font-family: 'ShipporiMincho';
 }
 
-.plans-container-title {
-    color: black;
-    font-size: 5vh;
+span.plans-choose {
+    color: #493414;
 }
 
-.plans-top-x-container {
+.plans-card-container {
+    background-color: red;
+    width: 100%;
+    /* margin: 2vh; */
     display: flex;
-    width: 58vw;
-    justify-content: space-between;
-}
-
-.plans-card-y-container {
-    display: flex;
-    flex-direction: column;
-    width: 18vw;
-    color: black;
-}
-
-.plans-card-top-container {
-    display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    /* justify-content: space-between; */
     align-items: center;
-    border: 1px solid rgba(73,52,20,0.2);
-    border-radius: 8px 8px 0px 0px;
+
 }
 
-.plans-card-title {
-    font-size: 2.5vh;
-}
-
-.plans-card-price-container {
-    display: flex;
-}
-
-.plans-card-price-sign {
-    font-size: 2vh;
-}
-
-.plans-card-price {
-    font-size: 9vh;
-}
-
-.plans-card-top-sm-text {
-    font-size: 1.5vh;
-}
-
-.plans-card-top-m-text {
-    font-size: 1.7vh;
-    align-self: center;
-}
-
-.plans-btn {
-    height: 4vh;
-    width: 14vw;
-    font-size: 2vh;
-    background-color: #A1E763;
-    color: white;
-    border-radius: 3px;
-    border: none;
-    margin-bottom: 2vh;
-    margin-top: 3vh;
-    font-family: ShipporiMincho;
-}
-
-.plans-card-btm-container {
-    display: flex;
-    flex-direction: column;
-    height: 45vh;
-    align-items: center;
-    border: 1px solid rgba(73,52,20,0.2);
-    border-radius: 0px 0px 8px 8px;
-}
-
-.plans-btm-x-container {
-    display: flex;
-    width: 58vw;
-    justify-content: space-between;
-    margin-bottom: 4vh;
+.plans-card {
+    background-color: blue;
+    width: 30%;
+    /* height: 50vh; */
 }

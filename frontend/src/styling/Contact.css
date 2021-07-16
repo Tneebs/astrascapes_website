@@ -1,9 +1,4 @@
-@font-face {
-    font-family: 'Lobster-Regular';
-    src: url('../fonts/Lobster-Regular.ttf');
-}
-
-.container {
+.container-contact {
     background-color: white;
     width: 65vw;
     margin-top: 7vh;
@@ -12,18 +7,17 @@
     justify-content: space-between;
 }
 
-.left {
+.contact-left {
     /* color: #493414; */
     color: #a1712c;
     width: 50%;
-    margin: 2vw;
-    font-family: ShipporiMincho-Regular;
-    font-size: 1.25em;
+    margin: 2vh;
+    font-size: 1.25vw;
 }
 
 span.lets-talk {
     color: #65ab24;
-    font-size: 2.5em;
+    font-size: 2.5vw;
     font-family: Lobster-Regular;
 }
 
@@ -35,7 +29,7 @@ span.lets-talk {
 .email-field {
     font-family: monospace;
     color: #a1712c;
-    font-size: 1.25em;
+    font-size: 1.5vw;
     margin-bottom: .5vh;
     border: 2px solid #65ab24;
 }
@@ -47,7 +41,7 @@ span.lets-talk {
 .email-mess {
     color: #a1712c;
     font-family: monospace;
-    font-size: 1.25em;
+    font-size: 1.5vw;
     margin-bottom: .5vh;
     height: 12vh;
     border: 2px solid #65ab24;
@@ -63,13 +57,14 @@ span.lets-talk {
     background-color: #65ab24;
     border: white;
     color: white;
-    height: 4vh;
-    width: 3vw;
     font-family: monospace;
+    font-size: 1.5vw;
     cursor: pointer;
 }
 
-.right {
+/* RIGHT */
+
+.contact-right {
     width: 50%;
     margin: 2vw;
     display: flex;
@@ -130,4 +125,56 @@ img.map {
     justify-content: center;
     align-items: center;
 
+}
+
+
+
+
+/* MOBILE DEVICE  */
+
+@media (orientation: portrait) and (max-height: 1200px) {
+    .container-contact {
+        width: 90vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact-left {
+        width: 100%;
+        font-size: 3.5vw;
+    }
+
+    span.lets-talk {
+        font-size: 8vw;
+    }
+
+    .email-field {
+        font-size: 4.5vw;
+    }
+
+    .email-mess {
+        font-size: 4.5vw;
+    }
+
+    .email-send {
+        font-size: 4.5vw;
+    }
+
+    .contact-right {
+        width: 100%;
+    }
+
+    .modal-sent {
+        height: 40vh;
+        width: 80vw;
+        font-size: 6vw;
+    }
+
+    .modal-error {
+        height: 40vh;
+        width: 80vw;
+        font-size: 6vw;
+    }
 }

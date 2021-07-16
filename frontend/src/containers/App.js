@@ -6,14 +6,12 @@ import {
   Redirect,
 } from "react-router-dom";
 import '../styling/App.css';
-import '../styling/home.css';
-import '../styling/services.css';
+import '../styling/Home.css';
+import '../styling/Services.css';
 import '../styling/Contact.css';
 import '../styling/Booking.css';
 import '../styling/Gallery.css';
-import '../styling/Grid.css';
 import '../styling/Plans.css';
-import '../styling/GalleryModal.css';
 
 
 import Footer from './Footer';

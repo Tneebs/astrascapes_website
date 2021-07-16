@@ -12,14 +12,13 @@
 
 span.our-services {
     color: #65ab24;
-    font-size: 2.5em;
-    font-family: Lobster-Regular;
+    font-size: 2.5vw;
+    font-family: 'Lobster-Regular';
 }
 
 p.services-des {
     color: #a1712c;
-    font-size: 1.25em;
-    font-family: 'Georgia';
+    font-size: 1.25vw;
 }
 
 /* BOTTOM */
@@ -47,18 +46,35 @@ img.services-pics {
 
 span.services-cards-title {
     color: #913804;
-    font-size: 2.5em;
-    font-family: 'Georgia';
+    width: 100%;
+    font-size: 2.5vw;
     margin-top: 1.5vh;
     margin-bottom: 1.5vh;
 }
 
-/* IMG OBJECT-FIT */
-/* .services-landscaping-img {
-    height: 45vh;
-    width: 28vw;
-    margin-left: 1vw;
-    margin-top: 3vh;
-    background-color: black;
-    object-fit: contain;
-} */
+
+
+
+/* MOBILE DEVICE  */
+
+@media (orientation: portrait) and (max-height: 1200px) {
+    .services-container {
+        width: 90vw;
+    }
+
+    span.our-services {
+        font-size: 8vw;
+    }
+
+    p.services-des {
+        font-size: 4vw;
+    }
+
+    .services-cards {
+        width: 100%;
+    }
+
+    span.services-cards-title {
+        font-size: 8vw;
+    }
+}
