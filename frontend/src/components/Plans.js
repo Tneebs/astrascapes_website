@@ -41,6 +41,8 @@ const Plans = () => {
         }
     ]
 
+    
+
 
     return (
         <div className='plans-container'>

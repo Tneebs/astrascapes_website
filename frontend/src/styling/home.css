@@ -1,6 +1,7 @@
 .home-container {
     margin-top: 7vh;
     margin-bottom: 7vh;
+    /* height: auto; */
     width: 65vw;
     background-color: white;
     /* display: flex;
@@ -75,12 +76,11 @@ p.home-read-more {
 
 /* BOTTOM HALF */
 .home-bottom-half {
-    background-color: crimson;
     height: 60vh;
     display: flex;
 }
 
-.home-bottom-half-left{
+.home-img-container {
     width: 50%;
 }
 
@@ -89,7 +89,7 @@ img.home-about-pic {
     width: 100%;
 }
 
-.home-bottom-half-right {
+.home-about-us-container {
     background-color: rgb(59, 204, 149);
     height: 100%;
     width: 50%;
@@ -148,8 +148,22 @@ button.home-learn-button {
         font-size: 3.5vw;
     }
 
+    .home-bottom-half {
+        flex-direction: column;
+    }
+
+    .home-img-container {
+        height: 50vh;
+        width: 100%;
+    }
+
     img.home-about-pic {
         height: 100%;
+    }
+
+    .home-about-us-container {
+        height: 100%;
+        width: 100%;
     }
 
     .home-about-us-title {

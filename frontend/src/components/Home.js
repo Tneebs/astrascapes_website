@@ -38,10 +38,10 @@ const Home = () => {
                 <div className='home-breaks'></div>
             </div>
             <div className='home-bottom-half'>
-                <div className='home-bottom-half-left'>
+                <div className='home-img-container'>
                     <img src={Shoes} className='home-about-pic' alt='Shoes' />
                 </div>
-                <div className='home-bottom-half-right'>
+                <div className='home-about-us-container'>
                         <div className='home-about-us-title'>
                             <span> A B O U T </span>
                             <span className='home-us'> U S </span>

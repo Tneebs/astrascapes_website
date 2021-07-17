@@ -25,44 +25,43 @@ import Plans from '../components/Plans';
 
 class App extends React.Component {
   render() {
-    return(
-        <BrowserRouter>
-         <div className='App'>
-        <Header />
-        <Switch>
+    return (
+      <BrowserRouter>
+        <div className='App'>
+          <Header />
+          <Switch>
 
-          <Route exact path='/'>
-            <Home />
-          </Route>
+            <Route exact path='/'>
+              <Home />
+            </Route>
 
-          <Route exact path='/services'>
-            <Services />
-          </Route>
+            <Route exact path='/services'>
+              <Services />
+            </Route>
 
-          <Route exact path='/gallery'>
-            <Gallery />
-          </Route>
+            <Route exact path='/gallery'>
+              <Gallery />
+            </Route>
 
-          <Route exact path='/contacts'>
-            <Contact />
-          </Route>
+            <Route exact path='/contacts'>
+              <Contact />
+            </Route>
 
-          <Route exact path='/booking'>
-            <Booking />
-          </Route>
+            <Route exact path='/booking'>
+              <Booking />
+            </Route>
 
-          <Route exact path='/plans'>
-            <Plans />
-          </Route>
+            <Route exact path='/plans'>
+              <Plans />
+            </Route>
 
-          <Route>
-            <Redirect to="/" />
-          </Route>
-        </Switch>
-        {/* <Footer /> */}
-        <Footer />
+            <Route>
+              <Redirect to="/" />
+            </Route>
+          </Switch>
+          <Footer />
         </div>
-        </BrowserRouter>
+      </BrowserRouter>
     )
   }
 }
