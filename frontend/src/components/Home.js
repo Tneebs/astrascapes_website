@@ -36,6 +36,7 @@ const Home = () => {
                 </div>
 
                 <div className='home-breaks'></div>
+                
             </div>
             <div className='home-bottom-half'>
                 <div className='home-img-container'>

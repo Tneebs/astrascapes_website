@@ -92,7 +92,7 @@ a:hover {
   justify-content: center;
   align-items: center;
   z-index: 10;
-  /* position: absolute; */
+  position: relative;
 }
 
 span.header-des {
@@ -129,7 +129,6 @@ a:hover {
 
 .footer-container {
   background-color: white;
-  height: 8vh;
   width: 65vw;
   display: flex;
 }
@@ -138,11 +137,24 @@ a:hover {
   width: 50%;
   margin-left: 2vh;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
 }
 
-p.footer-icon {
+a.footer-icon {
+  margin-top: .5vh;
+  margin-bottom: .5vh;
+  height: 5vh;
+  width: 3vw;
+  /* margin-left: 1vw; */
+}
+
+a.footer-icon:nth-child(2) {
   margin-left: 1vw;
+}
+
+img.footer-pic {
+  height: 100%;
+  width: 100%;
 }
 
 .footer-right {
@@ -155,6 +167,7 @@ p.footer-icon {
 
 span.trademark {
   color: #65ab24;
+  font-size: 1vw;
 }
 
 
@@ -188,8 +201,15 @@ span.trademark {
 
   .footer-container {
     width: 90vw;
-    margin-top: 30vh;
+    /* margin-top: 30vh; */
   }
 
 
+}
+
+@media (orientation: landscape) and (max-width: 1000px) {
+  .header-navlinks-container {
+    display: flex;
+    justify-content: flex-end;
+  }
 }

@@ -1,6 +1,5 @@
 .booking-container {
     background-color: white;
-    font-family: 'ShipporiMincho-Regular';
     margin-top: 7vh;
     margin-bottom: 7vh;
     width: 65vw;
@@ -19,10 +18,10 @@ p.booking-title {
 
 
 
-/* BOOKING CARD */
+/* CARD */
 
 .booking-cards {
-    height: 40vh;
+    /* height: 40vh; */
     width: 95%;
     border: 2px solid #ffd79b;
     margin-bottom: 2vh;
@@ -30,6 +29,7 @@ p.booking-title {
 }
 
 .booking-pic-container {
+    height: 45vh;
     width: 50%;
 }
 
@@ -40,7 +40,6 @@ img.booking-pics {
 
 .booking-card-info {
     color: #493414;
-    height: 100%;
     width: 50%;
     font-size: 1.25vw;
     display: flex;
@@ -81,7 +80,7 @@ a.book-now-button:hover {
 
 
 
-/* BOOKING MODAL */
+/* MODAL */
 
 .modal-card {
     background-color: white;
@@ -149,6 +148,7 @@ p.modal-location {
 
 /* MOBILE DEVICE  */
 
+/* PORTRAIT */
 @media (orientation: portrait) and (max-height: 1200px) {
     .booking-container {
         width: 90vw;
@@ -166,7 +166,7 @@ p.modal-location {
     }
 
     .booking-pic-container {
-        height: 20vh;
+        height: 22vh;
         width: 100%;
         margin-top: 2vh;
         margin-bottom: 2vh;
@@ -225,6 +225,71 @@ p.modal-location {
 
     p.modal-location {
         font-size: 4vw;
+    }
+
+}
+
+
+
+
+/* LANDSCAPE  */
+@media (orientation: landscape) and (max-width: 1200px) {
+    p.booking-title {
+        font-size: 4vw;
+    }
+
+    .booking-cards {
+        height: auto;
+        width: 90%;
+        margin-bottom: 8vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .booking-pic-container {
+        height: 50vh;
+        width: 60%;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    img.booking-pics {
+        width: 65%;
+        border-radius: 150px;
+    }
+
+    span.booking-card-title {
+        font-size: 3vw;
+    }
+
+    .booking-card-info {
+        width: 100%;
+        font-size: 2vw;       
+    }
+
+    a.book-now-button {
+        font-size: 1.5vw;
+        margin-bottom: 2vh;
+    }
+
+    span.modal-back-button {
+        font-size: 1.75vw;
+    }
+
+    span.modal-time-price {
+        font-size: 2vw;
+    }
+
+    p.modal-book-online {
+        font-size: 2vw;
+    }
+
+    p.modal-location {
+         font-size: 2vw;
     }
 
 }

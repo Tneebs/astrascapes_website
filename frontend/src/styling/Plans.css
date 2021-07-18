@@ -84,6 +84,7 @@ a.plans-contact {
 
 /* MOBILE DEVICE  */
 
+/* PORTRAIT */
 @media (orientation: portrait) and (max-height: 1200px) {
     .plans-container {
         width: 90vw;
@@ -111,4 +112,30 @@ a.plans-contact {
         height: auto;
     }
 
+}
+
+
+/* LANDSCAPE */
+@media (orientation: landscape) and (max-width: 1000px) {
+    p.plans-choose {
+        font-size: 4vw;
+    }
+
+    .plans-card {
+        width: 100%;
+        margin-bottom: 10vh;
+        font-size: 2vw;
+    }
+
+    p.plans-card-title {
+        font-size: 3vw;
+    }
+
+    span.plans-card-price {
+        font-size: 5vw;
+    }
+
+    .plans-card-bottom {
+        height: auto;
+    }
 }

@@ -1,17 +1,17 @@
 .home-container {
     margin-top: 7vh;
     margin-bottom: 7vh;
-    /* height: auto; */
     width: 65vw;
     background-color: white;
-    /* display: flex;
-    flex-direction: column; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* TOP HALF */
 .home-top-half{
-    background-color: rgb(255, 255, 255);
-    margin: 2vh;
+    width: 95%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,19 +19,15 @@
 }
 
 .home-cards{
-    height: 35vh;
+    padding: 2vh;
     width: 100%;
     margin: 1vw;
     display: flex;
     justify-content: flex-start;
-}
-
-.home-cards:nth-child(3) {
-    margin-top: 3.5vh;
+    align-items: center;
 }
 
 img.home-service-img {
-    height: 100%;
     width: 35%;
     background-color: black;
 }
@@ -76,11 +72,12 @@ p.home-read-more {
 
 /* BOTTOM HALF */
 .home-bottom-half {
-    height: 60vh;
+    /* height: 60vh; */
     display: flex;
 }
 
 .home-img-container {
+    height: 60vh;
     width: 50%;
 }
 
@@ -91,7 +88,7 @@ img.home-about-pic {
 
 .home-about-us-container {
     background-color: rgb(59, 204, 149);
-    height: 100%;
+    height: 60vh;
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -136,7 +133,7 @@ button.home-learn-button {
     }
 
     img.home-service-img {
-        height: 95%;
+        height: 100%;
         width: 60%;
     }
 
@@ -150,10 +147,10 @@ button.home-learn-button {
 
     .home-bottom-half {
         flex-direction: column;
+        /* height: 50vh; */
     }
 
     .home-img-container {
-        height: 50vh;
         width: 100%;
     }
 
@@ -162,7 +159,6 @@ button.home-learn-button {
     }
 
     .home-about-us-container {
-        height: 100%;
         width: 100%;
     }
 
@@ -178,6 +174,4 @@ button.home-learn-button {
     button.home-learn-button {
         font-size: 3.5vw;
     }
-
-  
 }

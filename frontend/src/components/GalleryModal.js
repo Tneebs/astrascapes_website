@@ -13,7 +13,7 @@ const GalleryModal = (props) => {
                 <img className='modal-pic' src={props.selectedPic} alt='pic' />
 
                 <div className='modal-pics-container'>
-                    {props.pics.map(pic => <img src={pic} className='modal-all-pics' onClick={(e) => props.modalClick(e)} />)}
+                    {props.pics.map(pic => <img src={pic} className='modal-all-pics' onClick={(e) => props.modalClick(e)} alt='GalleryModal' />)}
                 </div>
             </div>
         </div>

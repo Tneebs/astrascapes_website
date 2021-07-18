@@ -7,6 +7,7 @@ const BookingCard = (props) => {
             <div className='booking-pic-container'>
                 <img src={props.card.src} className='booking-pics' alt='Yard' />
             </div>
+            
             <div className='booking-card-info'>
                 <span className='booking-card-title' onClick={() => props.handleOpen(props.card)}> {props.card.title}  </span>
                 <p className='booking-card-des'> {props.card.des} </p>
