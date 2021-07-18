@@ -49,9 +49,10 @@ const Home = () => {
                         </div>
 
                         <div className='home-about-us-des'>
-                            <p> We take care of lawns small to large, Flatwork Cleaning, 
-                                Roof cleaning and house pressure washing. We enjoy turning 
-                                a unkempt lawn into a lawn that everyone enjoys seeing. </p>
+                            <p>
+                                We take care of the curb appeal from A to Z.
+                                The pride in our work and our members shine when it comes to appearance.
+                            </p>
                         </div>
 
                         <a href='/services' alt='Services Page'>

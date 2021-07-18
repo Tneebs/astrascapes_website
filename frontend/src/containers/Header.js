@@ -102,7 +102,6 @@ const Header = () => {
                         <img src={Logo} className='logo' alt='Logo-blk' />
                     </a>
                 </div>
-
                 <div className='header-navlinks-container'>
                     {windowWidth < 1200 ? portrait : landscape}
                 </div>
@@ -110,7 +109,6 @@ const Header = () => {
 
             <div className='header-bottom'>
                 <BackgroundSlideshow images={[Garden, White, garden1, Walk, garden2, landscaping1, landscaping2, landscaping3]} />
-
                 <div className='header-quote'>
                     <span className='header-des'>
                         Beautify Your Outdoor
