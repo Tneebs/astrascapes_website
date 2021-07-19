@@ -61,7 +61,7 @@ const Booking = () => {
             id: 6,
             src: AIO_WW,
             title: 'All-in-One Window Washing',
-            des: 'Thorough clean and shine on front windows. Price is based on minimum, additional Window Washing work can be fulfilled with a consultation.',
+            des: 'Gentle cleanse using the necessary tools to polish, clean, and protect windows. Price is based on minimum, additional Window Washing work can be fulfilled with a consultation.',
             time: 'TBD',
             price: 'Minimum $49.99'
         }

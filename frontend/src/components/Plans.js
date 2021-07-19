@@ -42,7 +42,7 @@ const Plans = () => {
             id: 5,
             title: 'All-in-One Window Washing',
             price: '$49.99',
-            package: 'Thorough cleaning and shine on front windows. Price is based on minimum, additional Window Washing work can be fulfilled with a consultation.',
+            package: 'Gentle cleanse using the necessary tools to polish, clean, and protect windows. Price is based on minimum, additional Window Washing work can be fulfilled with a consultation.',
             work: ['Front Window Washing', 'Gentle Chemical Application', 'Clean and Shine', 'Additional Window Washing subject to Consultation']
         }
     ]
