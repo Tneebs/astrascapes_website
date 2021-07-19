@@ -7,19 +7,19 @@ const Plans = () => {
         {
             id: 1,
             title: 'Bronze Plan',
-            price: '$80',
-            every: 'Every Month',
+            price: '$40',
+            every: 'Bi-Weekly',
             package: 'Lawn Care Bronze Package',
-            valid: 'Valid for 10 Months',
+            valid: 'No Contract',
             work: ['Lawn Care Bronze Package', 'Bi-Weekly Maintenance', 'Mow', 'Edge', 'Weedeat', 'Blow off / Cleanup']
         },
         {
             id: 2,
             title: 'Silver Plan',
             price: '$35',
-            every: 'Every Week',
+            every: 'Weekly',
             package: 'Lawn Care Silver Package',
-            valid: 'Valid for 36 Weeks',
+            valid: 'No Contract',
             work: ['Lawn Care Silver Package', 'Weekly Maintenance', 'Cut', 'Edge', 'Weedeat', 'Blow off / Cleanup']
         },
         {
@@ -28,16 +28,22 @@ const Plans = () => {
             price: '$160',
             every: 'Every Month',
             package: 'Lawn Care Gold Package',
-            valid: 'Valid for 12 Months',
-            work: ['Lawn Care Gold Package', 'Mow', 'Edge', 'Weedeat', 'Blow off / Cleanup', 'Off Season Debris Removal', 'Off Season Tree Cleanup', 'Shrub / Small Tree Maintenance']
+            valid: '12 Month Contract',
+            work: ['Lawn Care Gold Package', 'Mow', 'Edge', 'Weedeat', 'Blow off / Cleanup', 'Off Season Debris Removal', 'Off Season Tree Cleanup', 'Shrub / Small Tree Maintenance', 'Front Windows Washed']
         },
         {
             id: 4,
-            title: 'Bronze Pressure Wash',
-            price: '$200',
-            every: 'Every Month',
-            package: 'A gentle cleanse of your walk ways and patio/porch',
-            work: ['Bronze Package Pressure Washing', 'Gentle Chemical Application', 'Front Porch Cleaning', 'Walkways from Driveway to Front Porch']
+            title: 'All-in-One Pressure Washing',
+            price: '$149.99',
+            package: 'A gentle cleanse of your walk ways and front patio/porch. Price is based on minimum, additional Pressure Washing work can be fulfilled with a consultation.',
+            work: ['Bronze Package Pressure Washing', 'Gentle Chemical Application', 'Front Porch Cleaning', 'Walkways from Driveway to Front Porch', 'Additional Power Washing subject to Consultation']
+        },
+        {
+            id: 5,
+            title: 'All-in-One Window Washing',
+            price: '$49.99',
+            package: 'Thorough cleaning and shine on front windows. Price is based on minimum, additional Window Washing work can be fulfilled with a consultation.',
+            work: ['Front Window Washing', 'Gentle Chemical Application', 'Clean and Shine', 'Additional Window Washing subject to Consultation']
         }
     ]
 

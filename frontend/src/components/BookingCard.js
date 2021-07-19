@@ -14,7 +14,7 @@ const BookingCard = (props) => {
                 <span className='booking-read-more' onClick={() => props.handleOpen(props.card)}>
                     Read More
                 </span>
-                <p> {props.card.time} </p>
+
                 <span> {props.card.price} </span>
                 <a href='/contacts' className='book-now-button' alt='Contact Page'> <span> Contact Us! </span> </a>
             </div>

@@ -6,8 +6,8 @@ import {
   Redirect,
 } from "react-router-dom";
 import '../styling/App.css';
-import '../styling/Home.css';
-import '../styling/Services.css';
+import '../styling/home.css';
+import '../styling/services.css';
 import '../styling/Contact.css';
 import '../styling/Booking.css';
 import '../styling/Gallery.css';

@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Yellow from '../images/home-yellow-flower.webp'
-import Walkpath from '../images/home-walkpath.webp'
-import Shoes from '../images/home-shoes.webp'
+import Yellow from '../images/home-yellow-flower.webp';
+import Walkpath from '../images/home-walkpath.webp';
+import Color_Logo from '../images/astrascapes-color.png';
 
 const Home = () => {
     return (
@@ -40,7 +40,7 @@ const Home = () => {
             </div>
             <div className='home-bottom-half'>
                 <div className='home-img-container'>
-                    <img src={Shoes} className='home-about-pic' alt='Shoes' />
+                    <img src={Color_Logo} className='home-about-pic' alt='Shoes' />
                 </div>
                 <div className='home-about-us-container'>
                         <div className='home-about-us-title'>

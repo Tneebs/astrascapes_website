@@ -48,6 +48,7 @@ p.plans-choose {
 p.plans-card-title {
     font-size: 1.5vw;
     font-weight: bold;
+    text-align: center;
 }
 
 span.plans-card-price {
@@ -59,6 +60,7 @@ span.plans-card-package {
     width: 85%;
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 a.plans-contact {
@@ -72,10 +74,12 @@ a.plans-contact {
 /* BOTTOM CARD */
 
 .plans-card-bottom {
-    height: 50vh;
+    height: 60vh;
+    width: 85%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 

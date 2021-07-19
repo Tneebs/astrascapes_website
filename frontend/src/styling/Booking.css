@@ -56,6 +56,7 @@ span.booking-card-title {
 
 p.booking-card-des {
     width: 80%;
+    text-align: center;
 }
 
 span.booking-read-more {
@@ -107,6 +108,11 @@ span.modal-back-button {
 
 span.modal-title {
     font-size: 3vw;
+}
+
+.modal-des {
+    width: 75%;
+    text-align: center;
 }
 
 span.modal-time-price {

@@ -1,10 +1,10 @@
 import React from 'react';
 
 
-import Garden from '../images/garden.webp'
+// import Garden from '../images/garden.webp'
 import Trimming from '../images/tree_trimming.jpg';
 import PW from '../images/pressure_washing.jpg';
-import Watering from '../images/watering-plants.webp';
+import Lawn from '../images/Lawn.jpeg';
 import Window from '../images/windowcleaning.jpeg';
 
 const Services = () => {
@@ -23,14 +23,14 @@ const Services = () => {
 
             <div className='services-bottom'>
                 <div className='services-cards'>
-                    <img src={Watering} className='services-pics' alt='WateringPlants' />
-                    <span className='services-cards-title'> Landscaping </span>
+                    <img src={Lawn} className='services-pics' alt='WateringPlants' />
+                    <span className='services-cards-title'> Lawn Maintenance </span>
                 </div>
 
-                <div className='services-cards'>
+                {/* <div className='services-cards'>
                     <img src={Garden} className='services-pics' alt='Garden' />
                     <span className='services-cards-title'> Stone, Deck & Paving </span>
-                </div>
+                </div> */}
 
                 <div className='services-cards'>
                     <img src={Trimming} className='services-pics' alt='Trimming' />
