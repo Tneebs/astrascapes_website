@@ -27,7 +27,7 @@ const Home = () => {
                     <img src={Walkpath} className='home-service-img' alt='home-service-img' />
                     <div className='home-des-text'>
                         <span>
-                            Pressure Washing and Detailing Solutions
+                            Pressure Washing and Detailing Solutions.
                         </span>
                         <a href='/services' className='read-more'>
                             <p className='home-read-more'> Read More {'>'} </p>
