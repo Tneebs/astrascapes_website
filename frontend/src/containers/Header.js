@@ -97,11 +97,14 @@ const Header = () => {
     return (
         <div className='header-container'>
             <div className='header-top'>
+
                 <div className='header-logo'>
-                    <a href='/' alt='AstraScapes, LLC.'>
+                    <a href='/' alt='AstraScapes, LLC.' className='header-logo-quote' >
                         <img src={Logo} className='logo' alt='Logo-blk' />
+                        <span> All beautiful creations <br /> Start from the Root </span>
                     </a>
                 </div>
+
                 <div className='header-navlinks-container'>
                     {windowWidth < 1200 ? portrait : landscape}
                 </div>

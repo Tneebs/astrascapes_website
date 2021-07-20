@@ -8,6 +8,11 @@
   src: url('../fonts/ShipporiMincho-Regular.ttf');
 }
 
+@font-face {
+  font-family: 'Allura-Regular';
+  src: url('../fonts/Allura-Regular.ttf');
+}
+
 .App {
   display: flex;
   flex-direction: column;
@@ -40,10 +45,23 @@
 
 .header-logo {
   width: 35%;
+  font-family: 'Allura-Regular';
+  font-size: 1.5vw;
+  font-weight: bold;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+a.header-logo-quote {
+  color: #493414;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 
 img.logo {
   height: 12vh;
