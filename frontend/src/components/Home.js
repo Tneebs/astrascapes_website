@@ -42,6 +42,7 @@ const Home = () => {
                 <div className='home-img-container'>
                     <img src={Color_Logo} className='home-about-pic' alt='Shoes' />
                 </div>
+                
                 <div className='home-about-us-container'>
                         <div className='home-about-us-title'>
                             <span> A B O U T </span>

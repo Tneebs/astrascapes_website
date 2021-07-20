@@ -156,7 +156,7 @@ button.home-learn-button {
     }
 
     img.home-about-pic {
-        height: 100%;
+        object-fit: contain;
     }
 
     .home-about-us-container {

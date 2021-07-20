@@ -193,19 +193,26 @@ span.trademark {
 
 /* MOBILE DEVICE  */
 
+/* PORTRAIT */
 @media (orientation: portrait) and (max-height: 1200px) {
   .header-container {
     width: 90vw;
   }
 
+  .header-logo {
+    width: 80%;
+    font-size: 4.5vw;
+  }
+
   .header-navlinks-container {
+    width: 20%;
     display: flex;
     justify-content: flex-end;
   }
 
   a.navlinks {
     width: 100%;
-    font-size: 4vw;
+    font-size: 3.5vw;
   }
 
 
@@ -219,12 +226,25 @@ span.trademark {
 
   .footer-container {
     width: 90vw;
-    /* margin-top: 30vh; */
   }
 
+  a.footer-icon {
+    height: 4vh;
+    width: 8vw;
+  }
+
+  img.footer-pic {
+    /* object-fit: contain; */
+  }
+
+  span.trademark {
+    font-size: 3vw;
+  }
 
 }
 
+
+/* LANDSCAPE  */
 @media (orientation: landscape) and (max-width: 1000px) {
   .header-navlinks-container {
     display: flex;
