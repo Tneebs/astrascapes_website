@@ -15,7 +15,7 @@ const Home = () => {
                             Honest, Quality, and Hospitable work at a incredible price.
                             Interested in our services or plans?
                         </span>
-                        <a href='/services' className='read-more'>
+                        <a href='/services' className='read-more-container'>
                             <p className='home-read-more'> Read More {'>'} </p>
                         </a>
                     </div>
@@ -29,15 +29,15 @@ const Home = () => {
                         <span>
                             Pressure Washing and Detailing Solutions.
                         </span>
-                        <a href='/services' className='read-more'>
+                        <a href='/services' className='read-more-container'>
                             <p className='home-read-more'> Read More {'>'} </p>
                         </a>
                     </div>
                 </div>
 
                 <div className='home-breaks'></div>
-                
             </div>
+
             <div className='home-bottom-half'>
                 <div className='home-img-container'>
                     <img src={Color_Logo} className='home-about-pic' alt='Shoes' />

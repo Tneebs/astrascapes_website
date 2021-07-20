@@ -41,14 +41,14 @@ img.home-service-img {
     margin-left: 2vw;
 }
 
-p.home-read-more {
+a.read-more-container {
     color: #65ab24;
-    width: 100%;
-    font-size: 1.25vw;
+    text-decoration: none;
 }
 
-.read-more {
-    text-decoration: none;
+p.home-read-more {
+    width: 100%;
+    font-size: 1.25vw;
 }
 
 .home-breaks {
@@ -57,22 +57,8 @@ p.home-read-more {
     width: 100%;
 }
 
-.home-upper-bottom {
-    margin: 1vw;
-    background-color: white;
-    border-bottom: 4px dotted #a1712c;
-    display: flex;
-    align-items: center;
-}
-
-.home-middle-container-row {
-    display: flex;
-    flex-direction: row;
-}
-
 /* BOTTOM HALF */
 .home-bottom-half {
-    /* height: 60vh; */
     display: flex;
 }
 
