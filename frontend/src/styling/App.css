@@ -204,6 +204,16 @@ span.trademark {
     font-size: 3.5vw;
   }
 
+  a.header-logo-quote {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  a.header-logo-quote span {
+    width: 100%;
+  }
+
   .header-navlinks-container {
     width: 20%;
     display: flex;
