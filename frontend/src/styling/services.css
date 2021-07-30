@@ -31,6 +31,7 @@ p.services-des {
 }
 
 .services-cards {
+    /* background-color: red; */
     height: 50vh;
     width: 49%;
     /* padding: 2vh; */
@@ -73,9 +74,10 @@ span.services-cards-title {
     }
 
     .services-cards {
+        /* height: 100%; */
         width: 100%;
         /* padding-bottom: 4vh; */
-        /* margin-bottom: 4vh; */
+        margin-bottom: 4vh;
     }
 
     /* .services-cards:nth-child(3) {
